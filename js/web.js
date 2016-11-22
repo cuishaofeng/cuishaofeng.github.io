@@ -1,3 +1,5 @@
+(function(){
+	
 //鼠标滚轮事件，滑动滚轮的时候让header;
 var on = null;
 var numHeader = 0;
@@ -83,7 +85,6 @@ function addEvent(obj, evName, fn) {
 		trigger(obj, evName);
 	}
 }
-
 function trigger(obj, evName) {
 	if(obj.Ev[evName]) {
 		for(var i = 0; i < obj.Ev[evName].length; i++) {
@@ -203,12 +204,7 @@ Page.prototype.init = function() {
 			}
 			ev.preventDefault();
 		})
-		this.as[i].addEventListener('mouseover', function(ev) {
-			clearInterval(that.t1);
-		})
-		this.as[i].addEventListener('mouseout', function(ev) {
-			d1.autoPlay();
-		})
+		
 	}
 
 }
@@ -620,3 +616,4 @@ window.addEventListener('scroll', function() {
 //			}
 //		}
 //	}
+})()
