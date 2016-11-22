@@ -314,13 +314,15 @@ strong{
 #main .work3 .leftReload .quan{
 	position: absolute;
 	top: 104px;
-	left: 131px;
+	left: 50%;
 }
 #main .work3 .leftReload .quan span{
 	display: block;
 	height: 10px;
 	width:2px;
 	position: absolute;
+	left:50%;
+	
 	background: #D8D3D3;
 	transform-origin: center 50px ;
 }
@@ -832,13 +834,13 @@ strong{
 	margin-left: 16px;	
 }
 #footer .social1{
-	background: #000000 url(../img/socials-sprite.png) no-repeat -6px -53px;
+	background: #000000 url(../img/socials-sprite.png) no-repeat 0px -48px;
 }
 #footer .social2{
-	background: #000000 url(../img/socials-sprite.png) no-repeat -6px -15px;
+	background: #000000 url(../img/socials-sprite.png) no-repeat -4px -10px;
 }
 #footer .social3{
-	background: #000000 url(../img/socials-sprite.png) no-repeat -43px -16px;
+	background: #000000 url(../img/socials-sprite.png) no-repeat -40px -10px;
 }
 #footer .footer_menu{
 	float: left;
